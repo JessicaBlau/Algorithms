@@ -12,6 +12,7 @@ public class Node {
 	public void setData(char data) {this.data = data;}
 	public char getData() {return this.data;}
 	public Node getNext() {return this.next;}
+	public void setNext(Node next) {this.next = next;}
 	public Node getPrev() {return this.prev;}
 	public String toString() {return ""+this.data;}
 }
